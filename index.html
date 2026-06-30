@@ -1,101 +1,230 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Juha Lee | Computational Psychiatry</title>
-  <meta name="description" content="Personal academic webpage for Juha Lee: research, news, publications, and contact." />
-  <link rel="stylesheet" href="styles.css" />
+
+  <meta
+    name="description"
+    content="Personal academic webpage of Juha Lee. Computational psychiatry, decision making, reinforcement learning, publications, gallery, and research news."
+  >
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top">Juha Lee</a>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">Computational Psychiatry · Decision Making · Bipolar Disorder</p>
-        <h1>Juha Lee</h1>
-        <p class="subtitle">I study how people learn and make decisions under uncertainty, and how altered belief updating may contribute to psychiatric symptoms.</p>
-        <div class="actions">
-          <a class="button primary" href="#research">View research</a>
-          <a class="button" href="mailto:juhalee@snu.ac.kr">Email me</a>
-        </div>
-      </div>
-      <div class="hero-card" aria-label="Research keywords">
-        <span>Hierarchical Gaussian Filter</span>
-        <span>Volatility inference</span>
-        <span>Reward learning</span>
-        <span>Neuroimaging</span>
-      </div>
-    </section>
+<header class="site-header">
+  <a class="brand" href="#top">Juha Lee</a>
 
-    <section id="about" class="section two-col">
+  <nav>
+    <a href="#about-me">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Computational Psychiatry · Decision Making</p>
+
+      <h1>Juha Lee</h1>
+
+      <p class="hero-description">
+        M.A. student in Clinical Psychology at Seoul National University.
+        Investigating computational mechanisms underlying learning,
+        belief formation, and decision making in psychiatric disorders.
+      </p>
+
+      <div class="actions">
+        <a class="button primary" href="#research">View Research</a>
+        <a class="button" href="mailto:juhalee@snu.ac.kr">Email Me</a>
+      </div>
+    </div>
+
+    <div class="hero-profile">
+      <img src="assets/profile.jpg" alt="Portrait of Juha Lee">
+      <div class="hero-card">
+        <span>Computational Psychiatry</span>
+        <span>Decision Making</span>
+        <span>Reinforcement Learning</span>
+        <span>Belief Updating</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me" class="section two-col">
+    <div>
+      <h2>About Me</h2>
+
+      <p>
+        I am an M.A. student in Clinical Psychology at the
+        <strong>CCS Lab</strong>, Department of Psychology,
+        Seoul National University.
+      </p>
+
+      <p>
+        My research focuses on computational psychiatry,
+        belief formation, reinforcement learning, and decision making
+        in psychiatric disorders.
+      </p>
+    </div>
+
+    <div class="info-box">
+      <h3>Affiliation</h3>
+      <p>
+        Department of Psychology<br>
+        Seoul National University
+      </p>
+
+      <h3>Research Areas</h3>
+      <p>
+        Computational Psychiatry<br>
+        Decision Making<br>
+        Reinforcement Learning<br>
+        Cognitive Neuroscience
+      </p>
+    </div>
+  </section>
+
+  <section id="research" class="section">
+    <h2>Research</h2>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Volatility Inference in Type-I Bipolar Disorder</h3>
+        <p>
+          Investigating how altered volatility beliefs and inflexible
+          belief updating contribute to aberrant decision making
+          in Type-I bipolar disorder.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Self-Concept Clarity and Social Information Learning</h3>
+        <p>
+          Investigating how self-concept clarity influences the way
+          individuals process and integrate self-referential social
+          information, and how these mechanisms relate to social
+          anxiety symptoms.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <h2>Publications &amp; Posters</h2>
+
+    <ul class="pub-list">
+      <li>
+        <strong>
+          Overestimated Volatility and Inflexible Belief Updating
+          Underpin Aberrant Decision Making in Type-I Bipolar Disorder.
+        </strong><br>
+        Poster presentation.
+      </li>
+
+      <li>
+        <strong>
+          The Effect of Self-Concept Clarity on Social Evaluative
+          Information Learning: A Computational Approach.
+        </strong><br>
+        Poster presentation.
+      </li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+
+    <div class="gallery">
+      <figure>
+        <img src="assets/gallery-cpc2026.jpg" alt="CPC 2026 poster presentation">
+        <figcaption>CPC 2026 poster presentation</figcaption>
+      </figure>
+
+      <figure>
+        <img src="assets/gallery-symposium.jpg" alt="Brain-Mind-Behavior Symposium">
+        <figcaption>Brain-Mind-Behavior Symposium</figcaption>
+      </figure>
+
+      <figure>
+        <img src="assets/gallery-lab.jpg" alt="CCS Lab">
+        <figcaption>CCS Lab</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="news" class="section">
+    <h2>News</h2>
+
+    <div class="timeline">
       <div>
-        <h2>About</h2>
-        <p>I am a psychology researcher interested in computational mechanisms of adaptive decision making. My current work focuses on volatility estimation, belief updating, and choice behavior in Type-I bipolar disorder.</p>
+        <time>July 2026</time>
+        <p>
+          Presented a poster on bipolar disorder at the
+          Computational Psychiatry Conference (CPC), Yale University.
+        </p>
       </div>
-      <div class="info-box">
-        <h3>Affiliation</h3>
-        <p>Department of Psychology<br />Seoul National University</p>
-        <h3>Research areas</h3>
-        <p>Computational modeling, cognitive neuroscience, psychiatric decision making.</p>
+
+      <div>
+        <time>March 2026</time>
+        <p>
+          Joined the CCS Lab at Seoul National University
+          as an M.A. student in Clinical Psychology.
+        </p>
       </div>
-    </section>
 
-    <section id="research" class="section">
-      <h2>Research</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Volatility inference</h3>
-          <p>Modeling how people infer environmental change and update beliefs during uncertain decision tasks.</p>
-        </article>
-        <article class="card">
-          <h3>Belief updating in BD</h3>
-          <p>Testing whether altered volatility beliefs and inflexible updating underlie aberrant decision making in Type-I bipolar disorder.</p>
-        </article>
-        <article class="card">
-          <h3>Computational modeling</h3>
-          <p>Using hierarchical Bayesian models, HGF, reinforcement learning, and model comparison to explain behavioral patterns.</p>
-        </article>
+      <div>
+        <time>December 2024</time>
+        <p>
+          Won Second Prize at the Brain-Mind-Behavior Symposium
+          for research on self-concept clarity.
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="publications" class="section">
-      <h2>Publications & Posters</h2>
-      <ul class="pub-list">
-        <li><strong>Overestimated Volatility and Inflexible Belief Updating Underpin Aberrant Decision Making in Type-I Bipolar Disorder.</strong> Poster presentation.</li>
-        <li>Add journal papers, preprints, conference talks, or OSF/GitHub links here.</li>
-      </ul>
-    </section>
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
 
-    <section id="news" class="section">
-      <h2>News</h2>
-      <div class="timeline">
-        <div><time>2026.06</time><p>Poster on volatility inference and decision making in bipolar disorder.</p></div>
-        <div><time>2026.05</time><p>Updated computational modeling pipeline and parameter recovery analyses.</p></div>
-        <div><time>2026.04</time><p>Add your latest talks, papers, awards, or media updates here.</p></div>
-      </div>
-    </section>
+    <p>
+      Email:
+      <a href="mailto:juhalee@snu.ac.kr">juhalee@snu.ac.kr</a>
+    </p>
 
-    <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:juhalee@snu.ac.kr">juhalee@snu.ac.kr</a></p>
-      <p>Links: <a href="#">Google Scholar</a> · <a href="#">GitHub</a> · <a href="#">OSF</a></p>
-    </section>
-  </main>
+    <p>
+      GitHub:
+      <a href="https://github.com/juhajulia" target="_blank" rel="noopener">
+        github.com/juhajulia
+      </a>
+    </p>
 
-  <footer>
-    <p>© <span id="year"></span> Juha Lee. Built as a static academic webpage.</p>
-  </footer>
-  <script src="script.js"></script>
+    <p>
+      CCS Lab:
+      <a href="https://ccs-lab.github.io/" target="_blank" rel="noopener">
+        ccs-lab.github.io
+      </a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    © <span id="year"></span> Juha Lee.
+    All rights reserved.
+  </p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
