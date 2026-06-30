@@ -335,3 +335,31 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Force profile image size */
+.hero-profile {
+  width: 180px !important;
+  max-width: 180px !important;
+  justify-self: end !important;
+}
+
+.hero-profile img {
+  width: 180px !important;
+  height: 180px !important;
+  max-width: 180px !important;
+  max-height: 180px !important;
+  object-fit: cover !important;
+  border-radius: 28px;
+}
+
+@media (max-width: 900px) {
+  .hero-profile {
+    width: 160px !important;
+    max-width: 160px !important;
+  }
+
+  .hero-profile img {
+    width: 160px !important;
+    height: 160px !important;
+  }
+}
