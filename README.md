@@ -9,7 +9,7 @@
 1. Create a GitHub repository named `juhalee.github.io`.
 2. Upload all files in this folder to the repository root.
 3. Go to Settings → Pages → Deploy from branch → `main` / root.
-4. Your website will open at `https://juhajulia.github.io/stunning-potato`.
+4. Your website will open at `https://juhajulia.github.io`.
 
 ## QR code
-The included QR code points to `https://juhajulia.github.io/stunning-potato`. 
+The included QR code points to `https://juhajulia.github.io`. 
