@@ -11,7 +11,7 @@
     content="Personal academic webpage of Juha Lee. Computational psychiatry, decision making, reinforcement learning, publications, gallery, and research news."
   >
 
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 
 <body>
@@ -31,14 +31,33 @@
 
 <main id="top">
 
+  <!-- ===== Hero ===== -->
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-text">
-        <img class="profile-photo" src="assets/profile.jpeg" alt="Portrait of Juha Lee">
 
-        <p class="eyebrow">Computational Psychiatry · Decision Making</p>
+        <img
+          class="profile-photo"
+          src="assets/profile.jpeg"
+          alt="Portrait of Juha Lee"
+        >
+
+        <p class="eyebrow">
+          Computational Psychiatry · Decision Making
+        </p>
 
         <h1>Juha Lee</h1>
+
+        <div class="profile-links">
+          <a
+            href="assets/CV_JuhaLee_2026.pdf"
+            class="cv-button"
+            target="_blank"
+            rel="noopener"
+          >
+            CV
+          </a>
+        </div>
 
         <p class="hero-description">
           I am an M.A. student in the Computational Clinical Psychology Lab at Seoul National University.
@@ -53,6 +72,7 @@
           <a href="#news">News</a>
           <a href="#contact">Contact</a>
         </div>
+
       </div>
     </div>
 
@@ -63,31 +83,33 @@
     </div>
   </section>
 
+  <!-- ===== About ===== -->
   <section id="about-me" class="section two-col">
     <div>
       <h2>About Me</h2>
 
       <p>
-        I am an M.A. student in the Computational Clinical Psychology Lab at the
-        <strong>CCS Lab</strong>, Department of Psychology,
-        Seoul National University.
+        I am an M.A. student in the Computational Clinical Psychology Lab,
+        Department of Psychology, Seoul National University.
       </p>
 
       <p>
-        My research focuses on computational psychiatry,
-        belief formation, reinforcement learning, and decision making
-        in psychiatric disorders.
+        My research focuses on computational psychiatry, belief formation,
+        reinforcement learning, and decision making in psychiatric disorders.
       </p>
     </div>
 
     <div class="info-box">
       <h3>Affiliation</h3>
+
       <p>
+        Computational Clinical Psychology Lab<br>
         Department of Psychology<br>
         Seoul National University
       </p>
 
       <h3>Research Areas</h3>
+
       <p>
         Computational Psychiatry<br>
         Decision Making<br>
@@ -97,12 +119,15 @@
     </div>
   </section>
 
+  <!-- ===== Research ===== -->
   <section id="research" class="section">
     <h2>Research</h2>
 
     <div class="cards">
+
       <article class="card">
         <h3>Volatility Inference in Type-I Bipolar Disorder</h3>
+
         <p>
           Investigating how altered volatility beliefs and inflexible
           belief updating contribute to aberrant decision making
@@ -112,6 +137,7 @@
 
       <article class="card">
         <h3>Self-Concept Clarity and Social Information Learning</h3>
+
         <p>
           Investigating how self-concept clarity influences the way
           individuals process and integrate self-referential social
@@ -119,98 +145,163 @@
           anxiety symptoms.
         </p>
       </article>
+
     </div>
   </section>
 
+  <!-- ===== Publications ===== -->
   <section id="publications" class="section">
-    <h2>Publications &amp; Posters</h2>
+    <h2>Publications</h2>
 
     <ul class="pub-list">
       <li>
         <strong>
-          Lee, J. H., Jeong, J. W., Busemeyer, J. R., O'Donnell, B. F., & Ahn, W.-Y. (in preparation). Overestimated Environmental Volatility Underpins Aberrant Decision Making in Type-I Bipolar Disorder.
-        </strong><br>
-        Poster presentation.
+          Lee, H. M., Jeon, J. W., Lee, J. H., Shim, W. M., &amp; Ahn, W.-Y.
+        </strong>
+        <br>
+        <em>
+          Naturalistic foraging reveals latent signatures of value-guided
+          exploration during nicotine abstinence.
+        </em>
+        Manuscript in preparation.
+      </li>
+    </ul>
+
+    <h2>Conference Presentations</h2>
+
+    <ul class="pub-list">
+      <li>
+        <strong>
+          Lee, J. H., Jeong, J. W., Busemeyer, J. R.,
+          O'Donnell, B. F., &amp; Ahn, W.-Y. (2026, July).
+        </strong>
+        <br>
+        <em>
+          Overestimated Environmental Volatility Underpins Aberrant
+          Decision Making in Type-I Bipolar Disorder.
+        </em>
+        Poster to be presented at the 2026 Computational Psychiatry
+        Conference, Yale University, New Haven, CT, USA.
       </li>
 
       <li>
         <strong>
-         Lee, J. H., & Ahn, W.-Y. (2024, December). The Effect of Self-Concept Clarity on Social Evaluative Information Learning: A Computational Approach. Poster presented at the Brain, Mind, & Behavior Symposium, Seoul National University, Seoul, South Korea.
-        </strong><br>
-        Poster presentation.
+          Lee, J. H., &amp; Ahn, W.-Y. (2024, December).
+        </strong>
+        <br>
+        <em>
+          The Effect of Self-Concept Clarity on Social Evaluative
+          Information Learning: A Computational Approach.
+        </em>
+        Poster presented at the Brain, Mind, &amp; Behavior Symposium,
+        Seoul National University, Seoul, South Korea.
       </li>
     </ul>
   </section>
 
-<section id="gallery" class="section">
-  <h2>Gallery</h2>
+  <!-- ===== Gallery ===== -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
 
-  <div class="gallery-grid">
-    <button class="gallery-item" data-title="Brain-Mind-Behavior Symposium" data-caption="Poster presentation on self-concept clarity and social evaluative information learning." data-img="assets/gallery-symposium.jpg">
-      <img src="assets/gallery-symposium.jpg" alt="Brain-Mind-Behavior Symposium">
-      <span>Brain-Mind-Behavior Symposium</span>
-    </button>
-
-  </div>
-
-  <div class="gallery-modal" id="galleryModal">
-    <div class="gallery-modal-content">
-      <button class="modal-close" id="modalClose">×</button>
-      <img id="modalImg" src="" alt="">
-      <h3 id="modalTitle"></h3>
-      <p id="modalCaption"></p>
+    <div class="gallery-grid">
+      <button
+        class="gallery-item"
+        data-title="Brain-Mind-Behavior Symposium"
+        data-caption="Poster presentation on self-concept clarity and social evaluative information learning."
+        data-img="assets/gallery-symposium.jpg"
+      >
+        <img
+          src="assets/gallery-symposium.jpg"
+          alt="Brain-Mind-Behavior Symposium"
+        >
+        <span>Brain-Mind-Behavior Symposium</span>
+      </button>
     </div>
-  </div>
-</section>
 
+    <div class="gallery-modal" id="galleryModal">
+      <div class="gallery-modal-content">
+        <button
+          class="modal-close"
+          id="modalClose"
+          type="button"
+          aria-label="Close gallery"
+        >
+          ×
+        </button>
+
+        <img id="modalImg" src="" alt="">
+        <h3 id="modalTitle"></h3>
+        <p id="modalCaption"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== News ===== -->
   <section id="news" class="section">
     <h2>News</h2>
 
     <div class="timeline">
+
       <div>
         <time>July 2026</time>
+
         <p>
           I will present a poster on bipolar disorder at the
-          Computational Psychiatry Conference (CPC), Yale University.
+          Computational Psychiatry Conference at Yale University.
         </p>
       </div>
 
       <div>
         <time>March 2026</time>
+
         <p>
-          Joined the CCS Lab at Seoul National University
-          as an M.A. student in Clinical Psychology.
+          Joined the Computational Clinical Psychology Lab at
+          Seoul National University as an M.A. student in Clinical Psychology.
         </p>
       </div>
 
       <div>
         <time>December 2024</time>
+
         <p>
           Won Second Prize at the Brain-Mind-Behavior Symposium
-          for research on self-concept clarity.
+          for research on self-concept clarity and social evaluative
+          information learning.
         </p>
       </div>
+
     </div>
   </section>
 
+  <!-- ===== Contact ===== -->
   <section id="contact" class="section contact">
     <h2>Contact</h2>
 
     <p>
       Email:
-      <a href="mailto:juhalee@snu.ac.kr">juhalee@snu.ac.kr</a>
+      <a href="mailto:juhajulia@snu.ac.kr">
+        juhajulia@snu.ac.kr
+      </a>
     </p>
 
     <p>
       GitHub:
-      <a href="https://github.com/juhajulia" target="_blank" rel="noopener">
+      <a
+        href="https://github.com/juhajulia"
+        target="_blank"
+        rel="noopener"
+      >
         github.com/juhajulia
       </a>
     </p>
 
     <p>
       CCS Lab:
-      <a href="https://ccs-lab.github.io/" target="_blank" rel="noopener">
+      <a
+        href="https://ccs-lab.github.io/"
+        target="_blank"
+        rel="noopener"
+      >
         ccs-lab.github.io
       </a>
     </p>
